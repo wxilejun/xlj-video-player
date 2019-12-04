@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding:0;
+    font-size:18px;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+a{
+    color:#000000;
+    text-decoration:none;
+}
+strong{
+    color:#c09b9b;
+}
+.code{
+    color:#ffffff;
+    border-radius:5px;
+    padding:2px;
+    background-color:#6d6d6d;
+}
+/* 行级元素 */
+.inline{
+    display:inline;
+}
+/* 块级元素 */
+.block{
+    display:block;
+}
+/* 行级块元素 */
+.inline-block{
+    display:inline-block;
+}
+/* 容器居中 */
+.center{
+    text-align:center;
+}
+/* 标题标签 */
+h1{
+    font-size:68px;
+    font-weight:bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:68px;
+}
+h2{
+    font-size:58px;
+    font-weight:bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:58px;
+}
+h3{
+    font-size:48px;
+    font-weight:bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:48px;
+}
+h4{
+    font-size:38px;
+    font-weight:bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:38px;
+}
+h5{
+    font-size:28px;
+    font-weight:bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:28px;
+}
+h6{
+    font-size:18px;
+    font-weight:bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:18px;
+}
+/* 适应多终端 */
+/* 最屏幕像素宽度是900px时 */
+@media screen and (min-width: 900px){
+/* 标题标签 */
+h1{
+    font-size:78px;
+    font-weight:bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:78px;
+}
+h2{
+    font-size:68px;
+    font-weight:bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:68px;
+}
+h3{
+    font-size:58px;
+    font-weight:bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:58px;
+}
+h4{
+    font-size:48px;
+    font-weight:bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:48px;
+}
+h5{
+    font-size:38px;
+    font-weight:bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:38px;
+}
+h6{
+    font-size:28px;
+    font-weight:bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:28px;
+    }
+}

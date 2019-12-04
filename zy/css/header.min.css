@@ -1,0 +1,18 @@
+header{
+    height:56px;
+}header>div.toolbar{
+    height:56px;
+    background-color:#000000;
+    opacity: 0.5;
+    position:relative;
+    color:#ffffff;
+}header>div.toolbar>span.title{
+    font-size:22px;
+    font-family:serif;
+    font-weight:bold;
+    line-height:20px;
+    margin-left:6%;
+    position:absolute;
+    top:50%;
+    margin-top:-8px;
+}

@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>XLJ - zy</title>
+    <link rel="stylesheet" href="../css/style.min.css">
+    <link rel="stylesheet" href="../css/header.min.css">
+    <link rel="stylesheet" href="../css/aliplayer-min.css">
+    <script type="text/javascript" charset="utf-8" src="../js/player.js"></script>
+</head>
+<body>
+
+  <script src="../js/alertdialog.js"></script>
+
+        <header>
+          <div class="toolbar">
+              <span class="title">XLJ</span>
+          </div>
+        </header>
+    
+        <div id="player"></div>
+
+        <div class="container margin_left_min margin_right_min margin_top_10">
+          <span class="header_warning">由于XLJ的技术不够精湛所以完善的还不是很好，如果需要播放其他集数请先刷新页面再点击下面的按钮</span>
+          <br>
+          <span>XLJ是学生，因为时间和经济等原因，更新的时间不固定，如果发现有问题请先添加QQ群 <a href="https://shang.qq.com/wpa/qunwpa?idkey=f09cd58d91ec1d9def643e51f1365fb5008a4a07d4c07c6f7372123a794feebe">461909009</a></span>
+          <br>
+          <span>因为服务器带宽较大所以服务器费用都是XLJ独立支付的，如果你喜欢该剧，请前往&nbsp;<a href="https://xlj0.com">XLJ</a>&nbsp;赞赏一下吧！<br>你的支持是我的动力！</span>
+        </div>
+
+        <div class="h margin_left_min margin_right_min">
+
+          <ul class="menuh">
+              <li class="li" onclick="a_a();">1卷-1</li>
+              <li class="li" onclick="a_b();">1卷-2</li>
+              <li class="li" onclick="a_c();">1卷-3</li>
+              <li class="li" onclick="a_d();">1卷-4</li>
+
+              <li class="li" onclick="b_a();">2卷-1</li>
+              <li class="li" onclick="b_b();">2卷-2</li>
+              <li class="li" onclick="b_c();">2卷-3</li>
+              <li class="li" onclick="b_d();">2卷-4</li>
+
+              <li class="li" onclick="c_a();">3卷-1</li>
+              <li class="li" onclick="c_b();">3卷-2</li>
+              <li class="li" onclick="c_c();">3卷-3</li>
+              <li class="li" onclick="c_d();">3卷-4</li>
+
+              <li class="li" onclick="d_a();">4卷-1</li>
+              <li class="li" onclick="d_b();">4卷-2</li>
+              <li class="li" onclick="d_c();">4卷-3</li>
+              <li class="li" onclick="d_d();">4卷-4</li>
+              <li class="li" onclick="d_e();">4卷-5</li>
+          </ul>
+
+        </div>
+
+        <!-- JavaScript -->
+        <script>
+
+        function a_a() {
+          var player_1_1 = new Aliplayer({
+          "id": "player",
+          "source": "https://dm-1259696352.cos.ap-chengdu.myqcloud.com/dm/BD/yuanzhikong/1_1/%5BXYCC-SumiSora%5D%5B%5BYosuga%20no%20Sora%5D%5BBDRIP%5D%5BVol.1%20KazuhaHen%5D%5B01%5D%5BGB%5D%5B720P%5D%5Bx264_AAC%5D.mp4",
+          "autoplay": true,
+          "isLive": false,
+          "rePlay": false,
+          "playsinline": true,
+          "preload": true,
+          "controlBarVisibility": "hover",
+          "useH5Prism": true
+        }, function (player) {
+            player.stop();
+          }
+        );
+        }
+
+        function a_b(){
+          var player_1_2 = new Aliplayer({
+          "id": "player",
+          "source": "https://dm-1259696352.cos.ap-chengdu.myqcloud.com/dm/BD/yuanzhikong/1_2/%5BXYCC-SumiSora%5D%5B%5BYosuga%20no%20Sora%5D%5BBDRIP%5D%5BVol.1%20KazuhaHen%5D%5B02%5D%5BGB%5D%5B720P%5D%5Bx264_AAC%5D.mp4",
+          "autoplay": true,
+          "isLive": false,
+          "rePlay": false,
+          "playsinline": true,
+          "preload": true,
+          "controlBarVisibility": "hover",
+          "useH5Prism": true
+        }, function (player) {
+            // alert("XLJ - 动漫收藏:加载完成");
+          }
+        );
+        }
+
+        function a_c(){
+          var player_1_3 = new Aliplayer({
+          "id": "player",
+          "source": "https://dm-1259696352.cos.ap-chengdu.myqcloud.com/dm/BD/yuanzhikong/1_3/%5BXYCC-SumiSora%5D%5B%5BYosuga%20no%20Sora%5D%5BBDRIP%5D%5BVol.1%20KazuhaHen%5D%5B03%5D%5BGB%5D%5B720P%5D%5Bx264_AAC%5D.mp4",
+          "autoplay": true,
+          "isLive": false,
+          "rePlay": false,
+          "playsinline": true,
+          "preload": true,
+          "controlBarVisibility": "hover",
+          "useH5Prism": true
+        }, function (player) {
+            // alert("XLJ - 动漫收藏:加载完成");
+          }
+        );
+        }
+
+        function a_d(){
+          var player_1_4 = new Aliplayer({
+          "id": "player",
+          "source": "https://dm-1259696352.cos.ap-chengdu.myqcloud.com/dm/BD/yuanzhikong/1_4/%5BXYCC-SumiSora%5D%5B%5BYosuga%20no%20Sora%5D%5BBDRIP%5D%5BVol.1%20KazuhaHen%5D%5B04%5D%5BGB%5D%5B720P%5D%5Bx264_AAC%5D.mp4",
+          "autoplay": true,
+          "isLive": false,
+          "rePlay": false,
+          "playsinline": true,
+          "preload": true,
+          "controlBarVisibility": "hover",
+          "useH5Prism": true
+        }, function (player) {
+            // alert("XLJ - 动漫收藏:加载完成");
+          }
+        );
+        }
+
+        function b_a(){
+          var player_2_1 = new Aliplayer({
+          "id": "player",
+          "source": "https://dm-1259696352.cos.ap-chengdu.myqcloud.com/dm/BD/yuanzhikong/2_1/%5BXYCC-SumiSora%5D%5B%5BYosuga%20no%20Sora%5D%5BBDRIP%5D%5BVol.2%20AkiraHen%5D%5B01%5D%5BGB%5D%5B720P%5D%5Bx264_AAC%5D.mp4",
+          "autoplay": true,
+          "isLive": false,
+          "rePlay": false,
+          "playsinline": true,
+          "preload": true,
+          "controlBarVisibility": "hover",
+          "useH5Prism": true
+        }, function (player) {
+            // alert("XLJ - 动漫收藏:加载完成");
+          }
+        );
+        }
+
+        function b_b(){
+          var player_2_2 = new Aliplayer({
+          "id": "player",
+          "source": "https://dm-1259696352.cos.ap-chengdu.myqcloud.com/dm/BD/yuanzhikong/2_2/%5BXYCC-SumiSora%5D%5B%5BYosuga%20no%20Sora%5D%5BBDRIP%5D%5BVol.2%20AkiraHen%5D%5B02%5D%5BGB%5D%5B720P%5D%5Bx264_AAC%5D.mp4",
+          "autoplay": true,
+          "isLive": false,
+          "rePlay": false,
+          "playsinline": true,
+          "preload": true,
+          "controlBarVisibility": "hover",
+          "useH5Prism": true
+        }, function (player) {
+            // alert("XLJ - 动漫收藏:加载完成");
+          }
+        );
+        }
+
+        function b_c(){
+          var player_2_3 = new Aliplayer({
+          "id": "player",
+          "source": "https://dm-1259696352.cos.ap-chengdu.myqcloud.com/dm/BD/yuanzhikong/2_3/%5BXYCC-SumiSora%5D%5B%5BYosuga%20no%20Sora%5D%5BBDRIP%5D%5BVol.2%20AkiraHen%5D%5B03%5D%5BGB%5D%5B720P%5D%5Bx264_AAC%5D.mp4",
+          "autoplay": true,
+          "isLive": false,
+          "rePlay": false,
+          "playsinline": true,
+          "preload": true,
+          "controlBarVisibility": "hover",
+          "useH5Prism": true
+        }, function (player) {
+            // alert("XLJ - 动漫收藏:加载完成");
+          }
+        );
+        }
+
+        function b_d(){
+          var player_2_4 = new Aliplayer({
+          "id": "player",
+          "source": "https://dm-1259696352.cos.ap-chengdu.myqcloud.com/dm/BD/yuanzhikong/2_4/%5BXYCC-SumiSora%5D%5B%5BYosuga%20no%20Sora%5D%5BBDRIP%5D%5BVol.2%20AkiraHen%5D%5B04%5D%5BGB%5D%5B720P%5D%5Bx264_AAC%5D.mp4",
+          "autoplay": true,
+          "isLive": false,
+          "rePlay": false,
+          "playsinline": true,
+          "preload": true,
+          "controlBarVisibility": "hover",
+          "useH5Prism": true
+        }, function (player) {
+            // alert("XLJ - 动漫收藏:加载完成");
+          }
+        );
+        }
+
+        function c_a(){
+          var player_3_1 = new Aliplayer({
+          "id": "player",
+          "source": "https://dm-1259696352.cos.ap-chengdu.myqcloud.com/dm/BD/yuanzhikong/3_1/%5BXYCC-SumiSora%5D%5B%5BYosuga%20no%20Sora%5D%5BBDRIP%5D%5BVol.3%20NaoHen%5D%5B01%5D%5BGB%5D%5B720P%5D%5Bx264_AAC%5D.mp4",
+          "autoplay": true,
+          "isLive": false,
+          "rePlay": false,
+          "playsinline": true,
+          "preload": true,
+          "controlBarVisibility": "hover",
+          "useH5Prism": true
+        }, function (player) {
+            // alert("XLJ - 动漫收藏:加载完成");
+          }
+        );
+        }
+
+        function c_b(){
+          var player_3_2 = new Aliplayer({
+          "id": "player",
+          "source": "https://dm-1259696352.cos.ap-chengdu.myqcloud.com/dm/BD/yuanzhikong/3_2/%5BXYCC-SumiSora%5D%5B%5BYosuga%20no%20Sora%5D%5BBDRIP%5D%5BVol.3%20NaoHen%5D%5B02%5D%5BGB%5D%5B720P%5D%5Bx264_AAC%5D.mp4",
+          "autoplay": true,
+          "isLive": false,
+          "rePlay": false,
+          "playsinline": true,
+          "preload": true,
+          "controlBarVisibility": "hover",
+          "useH5Prism": true
+        }, function (player) {
+            // alert("XLJ - 动漫收藏:加载完成");
+          }
+        );
+        }
+
+        function c_c(){
+          var player_3_3 = new Aliplayer({
+          "id": "player",
+          "source": "https://dm-1259696352.cos.ap-chengdu.myqcloud.com/dm/BD/yuanzhikong/3_3/%5BXYCC-SumiSora%5D%5B%5BYosuga%20no%20Sora%5D%5BBDRIP%5D%5BVol.3%20NaoHen%5D%5B03%5D%5BGB%5D%5B720P%5D%5Bx264_AAC%5D.mp4",
+          "autoplay": true,
+          "isLive": false,
+          "rePlay": false,
+          "playsinline": true,
+          "preload": true,
+          "controlBarVisibility": "hover",
+          "useH5Prism": true
+        }, function (player) {
+            // alert("XLJ - 动漫收藏:加载完成");
+          }
+        );
+        }
+
+        function c_d(){
+          var player_3_4 = new Aliplayer({
+          "id": "player",
+          "source": "https://dm-1259696352.cos.ap-chengdu.myqcloud.com/dm/BD/yuanzhikong/3_4/%5BXYCC-SumiSora%5D%5B%5BYosuga%20no%20Sora%5D%5BBDRIP%5D%5BVol.3%20NaoHen%5D%5B04%5D%5BGB%5D%5B720P%5D%5Bx264_AAC%5D.mp4",
+          "autoplay": true,
+          "isLive": false,
+          "rePlay": false,
+          "playsinline": true,
+          "preload": true,
+          "controlBarVisibility": "hover",
+          "useH5Prism": true
+        }, function (player) {
+            // alert("XLJ - 动漫收藏:加载完成");
+          }
+        );
+        }
+
+        function d_a(){
+          var player_4_1 = new Aliplayer({
+          "id": "player",
+          "source": "https://dm-1259696352.cos.ap-chengdu.myqcloud.com/dm/BD/yuanzhikong/4_1/%5BXYCC-SumiSora%5D%5B%5BYosuga%20no%20Sora%5D%5BBDRIP%5D%5BVol.4%20SoraHen%5D%5B01%5D%5BGB%5D%5B720P%5D%5Bx264_AAC%5D.mp4",
+          "autoplay": true,
+          "isLive": false,
+          "rePlay": false,
+          "playsinline": true,
+          "preload": true,
+          "controlBarVisibility": "hover",
+          "useH5Prism": true
+        }, function (player) {
+            // alert("XLJ - 动漫收藏:加载完成");
+          }
+        );
+        }
+
+        function d_b(){
+          var player_4_2 = new Aliplayer({
+          "id": "player",
+          "source": "https://dm-1259696352.cos.ap-chengdu.myqcloud.com/dm/BD/yuanzhikong/4_2/%5BXYCC-SumiSora%5D%5B%5BYosuga%20no%20Sora%5D%5BBDRIP%5D%5BVol.4%20SoraHen%5D%5B02%5D%5BGB%5D%5B720P%5D%5Bx264_AAC%5D.mp4",
+          "autoplay": true,
+          "isLive": false,
+          "rePlay": false,
+          "playsinline": true,
+          "preload": true,
+          "controlBarVisibility": "hover",
+          "useH5Prism": true
+        }, function (player) {
+            // alert("XLJ - 动漫收藏:加载完成");
+          }
+        );
+        }
+
+        function d_c(){
+          var player_4_3 = new Aliplayer({
+          "id": "player",
+          "source": "https://dm-1259696352.cos.ap-chengdu.myqcloud.com/dm/BD/yuanzhikong/4_3/%5BXYCC-SumiSora%5D%5B%5BYosuga%20no%20Sora%5D%5BBDRIP%5D%5BVol.4%20SoraHen%5D%5B03%5D%5BGB%5D%5B720P%5D%5Bx264_AAC%5D.mp4",
+          "autoplay": true,
+          "isLive": false,
+          "rePlay": false,
+          "playsinline": true,
+          "preload": true,
+          "controlBarVisibility": "hover",
+          "useH5Prism": true
+        }, function (player) {
+            // alert("XLJ - 动漫收藏:加载完成");
+          }
+        );
+        }
+
+        function d_d(){
+          var player_4_4 = new Aliplayer({
+          "id": "player",
+          "source": "https://dm-1259696352.cos.ap-chengdu.myqcloud.com/dm/BD/yuanzhikong/4_4/%5BXYCC-SumiSora%5D%5B%5BYosuga%20no%20Sora%5D%5BBDRIP%5D%5BVol.4%20SoraHen%5D%5B04%5D%5BGB%5D%5B720P%5D%5Bx264_AAC%5D.mp4",
+          "autoplay": true,
+          "isLive": false,
+          "rePlay": false,
+          "playsinline": true,
+          "preload": true,
+          "controlBarVisibility": "hover",
+          "useH5Prism": true
+        }, function (player) {
+            // alert("XLJ - 动漫收藏:加载完成");
+          }
+        );
+        }
+
+        function d_e(){
+          var player_4_5 = new Aliplayer({
+          "id": "player",
+          "source": "https://dm-1259696352.cos.ap-chengdu.myqcloud.com/dm/BD/yuanzhikong/4_5/%5BXYCC-SumiSora%5D%5B%5BYosuga%20no%20Sora%5D%5BBDRIP%5D%5BVol.4%20SoraHen%5D%5B05%5D%5BGB%5D%5B720P%5D%5Bx264_AAC%5D.mp4",
+          "autoplay": true,
+          "isLive": false,
+          "rePlay": false,
+          "playsinline": true,
+          "preload": true,
+          "controlBarVisibility": "hover",
+          "useH5Prism": true
+        }, function (player) {
+            // alert("XLJ - 动漫收藏:加载完成");
+          }
+        );
+        }
+
+        </script>
+
+        <script type="text/javascript" color="255,0,0" pointColor="255,0,0" opacity='0.7' zIndex="-2" count="100" src="../.././js/dist/canvas-nest.js"></script>
+        <script type="text/javascript" src="../.././js/dist/canvas-nest.umd.js"></script>
+
+</body>
+</html>

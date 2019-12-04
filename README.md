@@ -4,7 +4,7 @@ XLJ Video Player 简单的前端视频播放程序，**轻** `/` **快**
 它是由 `html5` + `css3` + `javascript` 写出的
 由XLJ(喜乐君)独立完成开发  
 采用全前端模式，无需搭建PHP环境，上传网站根目录即可使用  
-[预览](https://xlj0.com/dm/) **`/`**[博客](https://xlj0.com)  
+[预览](https://xlj0.com/dm/) **`/`** [博客](https://xlj0.com)  
 
 注意，使用本程序前需要熟悉 `html` / `css` / `javascript`
 

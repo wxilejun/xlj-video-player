@@ -1,0 +1,15 @@
+code{
+    background-color:#000000;
+    font-size:18px;
+    line-height:18px;
+    padding:2px;
+    border-radius:5px;
+}
+blockquote{
+    display:block;
+    width:auto;
+    height:auto;
+    border-left:2px solid #e92424;
+    padding-left:1em;
+    margin-left:10px;
+}
